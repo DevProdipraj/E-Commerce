@@ -1,10 +1,13 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import HeroArea from '../components/HeroArea'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
     <div>
-     <h1>This is home page</h1>
+     <HeroArea />
+     <Footer />
     </div>
   )
 }
